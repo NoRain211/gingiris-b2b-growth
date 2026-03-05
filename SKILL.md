@@ -75,3 +75,21 @@ description: |
 | **Vercel** | "The Frontend Cloud"品类定义，v0赋能伙伴100倍效率 |
 | **Supabase** | "Build in a weekend, scale to millions" |
 | **InVideo** | 50%首单高额返佣 |
+
+---
+
+## 🔍 SEO & GEO 优化
+
+> 通过搜索引擎和 AI 搜索获取高质量 B2B 线索
+
+B2B 买家在每个决策阶段都有搜索行为，SEO/GEO 让你在整个漏斗中都能被发现：
+
+| 主题 | 说明 |
+|:---|:---|
+| [SEO/GEO 指南](references/seo-geo-guide.md) | 关键词矩阵、核心页面优化、内容营销 SEO、AI 引用优化 |
+
+**核心要点**:
+- 高意向关键词优先：pricing/demo/trial > vs竞品 > 品类词
+- 对比页是 B2B SEO 金矿：每个竞品单独页面
+- IndexNow 让定价/功能更新秒级索引
+- 案例研究既是 E-A-T 信号又是长尾关键词来源

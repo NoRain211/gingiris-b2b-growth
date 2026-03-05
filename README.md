@@ -90,8 +90,9 @@ Real case studies from top B2B SaaS companies, distilled into actionable strateg
 **Iris (生姜iris)** — Former cofounder & COO of AFFiNE ($10M raised), led B2B growth from 0 to global scale.
 
 - 🐦 Twitter: [@Gingiris_](https://twitter.com/Gingiris_)
+- 💼 LinkedIn: [Yipei Wei](https://www.linkedin.com/in/yipei-wei-550825105/)
 - 💬 Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
-- 📧 Consulting: Monthly retainers for B2B startups
+- 📧 Email: iris103195@gmail.com
 
 ---
 

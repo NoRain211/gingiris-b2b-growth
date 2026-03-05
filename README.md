@@ -4,6 +4,15 @@
 
 从 PMF 验证到生态化增长的完整操作手册，整合 HeyGen、Deel、Vercel、Supabase、AWS 等标杆企业的真实增长案例。
 
+## 🌍 多语言支持
+
+| 语言 | 入口 |
+|:---|:---|
+| 🇨🇳 中文 | [SKILL.md](SKILL.md) |
+| 🇺🇸 English | [references/en/README.md](references/en/README.md) |
+| 🇯🇵 日本語 | [references/ja/README.md](references/ja/README.md) |
+| 🇰🇷 한국어 | [references/ko/README.md](references/ko/README.md) |
+
 ## ✨ 特性
 
 - 🎯 **PMF验证**：HeyGen 1800次用户访谈案例 + 完整访谈大纲模板
@@ -33,13 +42,16 @@ git clone https://github.com/Gingiris/gingiris-b2b-growth.git ~/.openclaw/skills
 
 ```
 gingiris-b2b-growth/
-├── SKILL.md                      # 核心入口 + 导航
-└── references/
-    ├── foundation.md             # PMF验证、用户调研、社区建设
-    ├── growth-engine.md          # PLG/SLG、联盟营销、渠道伙伴
-    ├── value-presentation.md     # 价值主张、销售Deck、案例叙事
-    ├── contracts.md              # SOR/SOW/MSA/PCR/报价单模板
-    └── metrics.md                # 指标体系、工具栈
+├── SKILL.md                      # 核心入口
+├── references/
+│   ├── foundation.md             # PMF、用户调研、社区（中文）
+│   ├── growth-engine.md          # PLG/SLG、联盟、渠道
+│   ├── value-presentation.md     # 销售Deck、案例叙事
+│   ├── contracts.md              # 合同模板
+│   ├── metrics.md                # 指标体系
+│   ├── en/                       # English
+│   ├── ja/                       # 日本語
+│   └── ko/                       # 한국어
 ```
 
 ## 🔑 核心案例索引

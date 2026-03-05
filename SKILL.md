@@ -46,11 +46,11 @@ description: |
 
 | 主题 | 文件 |
 |:---|:---|
-| 奠定基石（PMF、用户调研、社区） | [references/foundation.md](references/foundation.md) |
-| 构建增长引擎（PLG/SLG、联盟、渠道） | [references/growth-engine.md](references/growth-engine.md) |
-| 价值呈现（销售Deck、案例叙事） | [references/value-presentation.md](references/value-presentation.md) |
-| 合同模板体系 | [references/contracts.md](references/contracts.md) |
-| 数据驱动增长 | [references/metrics.md](references/metrics.md) |
+| 奠定基石（PMF、用户调研、社区） | [references/foundation.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/foundation.md) |
+| 构建增长引擎（PLG/SLG、联盟、渠道） | [references/growth-engine.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/growth-engine.md) |
+| 价值呈现（销售Deck、案例叙事） | [references/value-presentation.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/value-presentation.md) |
+| 合同模板体系 | [references/contracts.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/contracts.md) |
+| 数据驱动增长 | [references/metrics.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/metrics.md) |
 
 ---
 
@@ -58,11 +58,11 @@ description: |
 
 | 🇨🇳 中文 | 🇺🇸 English | 🇯🇵 日本語 | 🇰🇷 한국어 |
 |:---|:---|:---|:---|
-| [奠定基石](references/foundation.md) | [Foundation](references/en/foundation.md) | [基盤構築](references/ja/foundation.md) | [기반 구축](references/ko/foundation.md) |
-| [增长引擎](references/growth-engine.md) | [Growth Engine](references/en/growth-engine.md) | [成長エンジン](references/ja/growth-engine.md) | [성장 엔진](references/ko/growth-engine.md) |
-| [价值呈现](references/value-presentation.md) | [Value Presentation](references/en/value-presentation.md) | [価値提示](references/ja/value-presentation.md) | [가치 제시](references/ko/value-presentation.md) |
-| [合同模板](references/contracts.md) | [Contracts](references/en/contracts.md) | [契約テンプレート](references/ja/contracts.md) | [계약 템플릿](references/ko/contracts.md) |
-| [数据指标](references/metrics.md) | [Metrics](references/en/metrics.md) | [指標体系](references/ja/metrics.md) | [지표 체계](references/ko/metrics.md) |
+| [奠定基石](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/foundation.md) | [Foundation](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/foundation.md) | [基盤構築](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ja/foundation.md) | [기반 구축](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ko/foundation.md) |
+| [增长引擎](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/growth-engine.md) | [Growth Engine](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/growth-engine.md) | [成長エンジン](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ja/growth-engine.md) | [성장 엔진](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ko/growth-engine.md) |
+| [价值呈现](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/value-presentation.md) | [Value Presentation](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/value-presentation.md) | [価値提示](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ja/value-presentation.md) | [가치 제시](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ko/value-presentation.md) |
+| [合同模板](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/contracts.md) | [Contracts](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/contracts.md) | [契約テンプレート](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ja/contracts.md) | [계약 템플릿](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ko/contracts.md) |
+| [数据指标](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/metrics.md) | [Metrics](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/metrics.md) | [指標体系](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ja/metrics.md) | [지표 체계](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ko/metrics.md) |
 
 ---
 

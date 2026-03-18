@@ -11,7 +11,40 @@
 
 ---
 
-> **What happened here:** The original repo was a lead-gen funnel disguised as open source — thin outlines with deliberate gaps, designed to push you toward a $200 "consulting call" (crypto/wire only, no refunds, via Telegram DM). We forked it and filled in every gap with real frameworks, real benchmarks, and real templates. 5,000+ lines of actual substance. No upsell, no CTA, no paywall. Just use it.
+> **What happened here:** The original repo was a lead-gen funnel disguised as open source — thin outlines with deliberate gaps, designed to push you toward a $200 "consulting call" (crypto/wire only, no refunds, via Telegram DM). We forked it and filled in every gap with real frameworks, real benchmarks, and real templates. 22,000+ lines across 4 languages. No upsell, no CTA, no paywall. Just use it.
+
+---
+
+## Start Here
+
+Don't read everything — start with what you need right now:
+
+```
+Where are you?
+│
+├─ "I don't have product-market fit yet"
+│   └─→ Read: Foundation (PMF validation, user interviews, pricing)
+│
+├─ "I have PMF but need to grow"
+│   ├─ "I need more users/leads"
+│   │   └─→ Read: Growth Engine (PLG, affiliates, content, partnerships)
+│   ├─ "I need to close bigger deals"
+│   │   └─→ Read: Value Presentation (sales deck, demos, proposals)
+│   └─ "I need to track what's working"
+│       └─→ Read: Metrics (dashboards, cohorts, experiments)
+│
+├─ "I'm signing enterprise deals"
+│   └─→ Read: Contracts (MSA, SOW, negotiation playbook)
+│
+├─ "I just got hired as the growth person"
+│   └─→ Read: First 90 Days (week-by-week action plan)
+│
+├─ "I want to avoid common mistakes"
+│   └─→ Read: Anti-Patterns (10 failure modes with fixes)
+│
+└─ "I want to learn more on my own"
+    └─→ Read: Resources (free newsletters, podcasts, courses)
+```
 
 ---
 
@@ -29,36 +62,14 @@ This isn't a table of contents pretending to be a playbook. Every section has re
 | Cohort analysis with SQL examples and interpretation guides | "Track your retention metrics" |
 | Commission rate formulas with worked examples | "Design a competitive commission structure" |
 | Van Westendorp pricing research methodology | "Price your product competitively" |
+| 8 downloadable CSV templates with real sample data | "Build your own spreadsheet" |
+| 91-item week-by-week action plan for new growth hires | "Figure it out" |
 
 ---
 
 ## English
 
-### Core Framework: Growth Flywheel
-
-```
-     ┌─────────────┐
-     │  Product    │ ← PLG Core
-     │  Experience │
-     └──────┬──────┘
-            │
-     ┌──────▼──────┐
-     │  Community  │ ← CLG Amplifier
-     │  Operations │
-     └──────┬──────┘
-            │
-     ┌──────▼──────┐
-     │  Channel    │ ← Scale
-     │  Ecosystem  │
-     └──────┬──────┘
-            │
-     ┌──────▼──────┐
-     │  Direct     │ ← SLG Monetize
-     │  Sales      │
-     └─────────────┘
-```
-
-### Detailed Guides (English)
+### Detailed Guides
 
 | Guide | What's Inside |
 |:---|:---|

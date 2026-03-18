@@ -25,7 +25,7 @@ Most successful B2B companies don't pick one — they run both simultaneously. P
 
 ### Reverse Trials
 
-Reverse trials — where users get full paid features temporarily, then drop to free — outperform both permanent free tiers and standard time-limited trials. Some case studies show 83% conversion rates. Notion, Airtable, and Figma have all moved toward this model.
+Reverse trials — where users get full paid features temporarily, then drop to free — outperform both permanent free tiers and standard time-limited trials. OpenView data shows reverse trials convert at 7–21%, compared to freemium (3–15%) and standard free trials (8–25%). The key advantage isn't a higher peak conversion rate — it's better long-term retention because users who don't convert remain on a free tier rather than disappearing entirely. Notion, Airtable, and Figma have all moved toward this model.
 
 **Why reverse trials work:** users experience the full product value before being asked to pay. By the time the trial expires, they've built workflows around premium features and have a concrete sense of what they'd lose. This inverts the psychology of a standard free tier, where users never see what they're missing.
 
@@ -840,7 +840,7 @@ AI SDR tools handle prospecting, sequencing, and initial outreach autonomously. 
 **Performance benchmarks:**
 - AI SDRs achieve 4–7x the conversion rate of manual outreach, primarily through better personalization at scale and optimal send-time optimization
 - Cost reduction of ~70% compared to fully loaded human SDR costs
-- AI SDR market growing at 20.2% CAGR
+- AI SDR market growing at 21–32% CAGR depending on market definition (Fortune Business Insights: 21.2%, MarketsandMarkets: 29.5%, Research and Markets: 32.3%). Market size: ~$5B in 2026, projected $15–24B by 2030–2034.
 
 ### When to Use AI SDRs vs. Human SDRs
 

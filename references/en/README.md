@@ -1,47 +1,11 @@
-# AI Global B2B Product Full Lifecycle Growth Guide
+# B2B SaaS Growth Playbook — English
 
-> Version: v4.0 (Ultimate Fusion Edition) | Integrating HeyGen, Deel, Vercel, Supabase, AWS case studies
+## Guides
 
-## Core Framework: Growth Flywheel
-
-```
-     ┌─────────────┐
-     │   Product   │ ← PLG Core
-     │  Experience │
-     └──────┬──────┘
-            │
-     ┌──────▼──────┐
-     │  Community  │ ← CLG Amplification
-     │  Operations │
-     └──────┬──────┘
-            │
-     ┌──────▼──────┐
-     │  Channel    │ ← Scale
-     │  Ecosystem  │
-     └──────┬──────┘
-            │
-     ┌──────▼──────┐
-     │   Direct    │ ← SLG Monetization
-     │    Sales    │
-     └─────────────┘
-```
-
-## Detailed Guides
-
-| Topic | File |
+| Guide | What's Inside |
 |:---|:---|
-| Foundation (PMF, User Research, Community) | [foundation.md](foundation.md) |
-| Growth Engine (PLG/SLG, Affiliate, Channel) | [growth-engine.md](growth-engine.md) |
-| Value Presentation (Sales Deck, Case Studies) | [value-presentation.md](value-presentation.md) |
-| Contract Templates | [contracts.md](contracts.md) |
-| Data-Driven Growth | [metrics.md](metrics.md) |
-
-## Key Case Index
-
-| Company | Highlight |
-|:---|:---|
-| **HeyGen** | 1800 user interviews to find PMF, 20% recurring commission |
-| **Deel** | Partner program contributed $90M ARR, tiered certification |
-| **Vercel** | "The Frontend Cloud" category definition, v0 enables 100x partner efficiency |
-| **Supabase** | "Build in a weekend, scale to millions" |
-| **InVideo** | 50% first-order high commission |
+| [Foundation](foundation.md) | PMF validation (Sean Ellis, Superhuman engine), user interviews with real questions, pricing strategy, retention & activation, competitive intelligence, community playbooks |
+| [Growth Engine](growth-engine.md) | PQL scoring models, PLG/SLG handoff workflows, affiliate programs with fraud detection, channel partner tiers, 30-day SDR cadences, MEDDPICC, international expansion |
+| [Value Presentation](value-presentation.md) | JTBD + Value Proposition Canvas, 9-slide deck with real guidance per slide, ROI calculators, demo best practices, battlecards, proposal writing |
+| [Contracts](contracts.md) | Filled-in SOR/SOW/MSA/NDA templates, actual clause language, SaaS subscription agreements, partner agreements, negotiation playbook by company size |
+| [Metrics](metrics.md) | North Star selection, AARRR with benchmarks, Quick Ratio, Rule of 40, NDR, cohort analysis with SQL, churn prediction, board deck metrics by funding stage, data infrastructure setup |

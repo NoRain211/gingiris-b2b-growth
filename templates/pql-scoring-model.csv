@@ -1,0 +1,6 @@
+User Email,Company,Company Size,Plan,Logins Last 7 Days,Features Used,Team Members Invited,API Calls,Activation Score (0-30),Engagement Score (0-30),Fit Score (0-20),Expansion Score (0-20),Total PQL Score (0-100),Tier,Recommended Action,Owner
+sarah.chen@meridianops.com,Meridian Operations,120,Pro,14,8,4,2340,28,26,18,16,88,Hot,Schedule demo with VP Ops — already using 8 features and invited team,Marcus
+jake.hoffman@stacklayer.io,Stacklayer,35,Starter,9,5,2,870,22,20,14,12,68,Warm,Send case study for similar-size dev teams — nudge toward Pro trial,Priya
+lisa.nguyen@vaultedge.com,VaultEdge Security,450,Pro,3,3,0,190,12,10,20,8,50,Cool,Check in on onboarding blockers — high fit but low activation,Marcus
+tom.bradley@nimbushr.co,Nimbus HR,15,Free,2,2,0,45,8,6,6,4,24,Cold,Add to nurture sequence — too small and not activated,Priya
+rachel.moreno@ascendlogistics.com,Ascend Logistics,210,Enterprise,18,11,7,5100,30,28,18,18,94,Hot,Fast-track to AE — power user expanding across departments,Marcus

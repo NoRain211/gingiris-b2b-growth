@@ -1,43 +1,13 @@
-# AI 글로벌 B2B 제품 전체 라이프사이클 성장 가이드
+# B2B SaaS 성장 플레이북 — 한국어
 
-> 버전: v4.0 (궁극의 융합판) | HeyGen, Deel, Vercel, Supabase, AWS 사례 연구 통합
+> 네이티브 스피커의 리뷰를 환영합니다 — PR을 보내주세요
 
-## 핵심 프레임워크: 성장 플라이휠
+## 가이드
 
-```
-     ┌─────────────┐
-     │   제품 경험  │ ← PLG 코어
-     └──────┬──────┘
-            │
-     ┌──────▼──────┐
-     │   커뮤니티   │ ← CLG 증폭
-     └──────┬──────┘
-            │
-     ┌──────▼──────┐
-     │채널 에코시스템│ ← 스케일
-     └──────┬──────┘
-            │
-     ┌──────▼──────┐
-     │   직접 판매  │ ← SLG 수익화
-     └─────────────┘
-```
-
-## 상세 가이드
-
-| 주제 | 파일 |
+| 가이드 | 내용 |
 |:---|:---|
-| 기반 구축 (PMF, 사용자 리서치, 커뮤니티) | [foundation.md](foundation.md) |
-| 성장 엔진 (PLG/SLG, 어필리에이트, 채널) | [growth-engine.md](growth-engine.md) |
-| 가치 제시 (세일즈 덱, 케이스 스터디) | [value-presentation.md](value-presentation.md) |
-| 계약 템플릿 | [contracts.md](contracts.md) |
-| 데이터 기반 성장 | [metrics.md](metrics.md) |
-
-## 주요 케이스 인덱스
-
-| 기업 | 하이라이트 |
-|:---|:---|
-| **HeyGen** | 1800회 사용자 인터뷰로 PMF 발견, 20% 지속 커미션 |
-| **Deel** | 파트너 프로그램이 $90M ARR 기여, 단계별 인증 |
-| **Vercel** | "The Frontend Cloud" 카테고리 정의, v0으로 100배 효율화 |
-| **Supabase** | "Build in a weekend, scale to millions" |
-| **InVideo** | 50% 첫 주문 고액 커미션 |
+| [기반 구축](foundation.md) | PMF 검증, 사용자 인터뷰, 가격 전략, 리텐션, 경쟁 분석, 커뮤니티 운영 |
+| [성장 엔진](growth-engine.md) | PQL 스코어링, PLG/SLG 핸드오프, 제휴 마케팅, 채널 파트너, SDR 케이던스, MEDDPICC |
+| [가치 제시](value-presentation.md) | JTBD, 세일즈 덱, ROI 계산, 데모 베스트 프랙티스, 배틀카드, 제안서 작성 |
+| [계약 템플릿](contracts.md) | SOR/SOW/MSA/NDA 템플릿, SaaS 계약, 파트너 계약, 협상 플레이북 |
+| [데이터 기반 성장](metrics.md) | 노스스타 메트릭, AARRR, 코호트 분석, 이탈 예측, 투자자 KPI |

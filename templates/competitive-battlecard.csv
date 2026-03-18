@@ -1,0 +1,18 @@
+Category,Our Product,Competitor A (Streamline),Competitor B (OpsGrid),Competitor C (FlowStack)
+Positioning,All-in-one growth ops platform for mid-market B2B,Enterprise workflow automation,Lightweight project tracking for startups,Developer-first operations toolkit
+Target Customer,B2B SaaS companies 50-500 employees,Enterprise 1000+ employees,Seed to Series A startups under 50 people,Developer teams at tech companies
+Pricing (Entry),$349/mo for 10 seats,$1200/mo minimum 25 seats,$29/mo for 5 seats,$199/mo for 10 seats
+Pricing (Enterprise),$2500/mo custom seats + dedicated CSM,$8000/mo + implementation fee,$299/mo for 50 seats,$1500/mo + API overage fees
+Key Strength,Fast time-to-value with pre-built B2B playbooks,Deep enterprise customization and compliance,Dead-simple UI and fastest onboarding,Best-in-class API and extensibility
+Key Weakness,Smaller integration ecosystem (45 vs 100+),6-month implementation timeline; overkill for SMB,Breaks down past 50 users; no enterprise features,No non-technical user path; steep learning curve
+Integration Count,45,120,18,85
+Uptime SLA,99.95%,99.99%,99.9%,99.95%
+Support Channels,Email; Chat; Dedicated CSM on Pro+,Phone; Email; Dedicated CSM; On-site,Email; Community forum,Email; Chat; Developer community
+Free Tier,14-day trial with full features,No free trial — demo only,Free forever for up to 3 users,30-day trial with API limits
+API Access,Full REST API on all paid plans,API available on Enterprise only,Limited API on paid plans,Full REST + GraphQL on all plans
+SOC 2,Type II certified,Type II certified,In progress,Type II certified
+GDPR,Compliant with DPA available,Compliant with DPA available,Self-certified,Compliant with DPA available
+Best For,Growing B2B teams that need structure without enterprise complexity,Regulated industries needing deep customization,Solo founders and tiny teams validating an idea,Engineering-led orgs that want to build on top of a platform
+Worst For,Enterprise orgs with rigid procurement processes,Startups who need to move fast and iterate,Companies past 50 employees or needing compliance,Non-technical teams or companies without developers
+Common Objection,"We already use Streamline and switching costs are high","Streamline is too expensive and takes months to deploy","We'll outgrow FlowStack too quickly","OpsGrid and FlowStack together cost less than you"
+Our Response,"We offer free migration support and most teams are live in 2 weeks vs 6 months. Ask about our Streamline migration playbook.","Exactly — we give you 80% of Streamline's power at 30% of the cost with zero implementation timeline.","That's a real risk. Companies typically outgrow FlowStack around 40 employees and face a painful migration. Starting with us avoids that.","Stitching two tools together creates data silos and doubles admin overhead. Our all-in-one approach saves 8+ hours/week per ops lead."

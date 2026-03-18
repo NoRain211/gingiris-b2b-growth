@@ -120,15 +120,17 @@ This isn't a table of contents pretending to be a playbook. Every section has re
 
 ---
 
-## Key Case Studies
+## Case Studies & Sources
 
-| Company | Highlight |
-|:---|:---|
-| **HeyGen** | 1,800 user interviews to find PMF, 20% recurring commission |
-| **Deel** | Partner program contributing $90M ARR, tiered certification |
-| **Vercel** | "The Frontend Cloud" category creation, v0 empowers partners 100x |
-| **Supabase** | "Build in a weekend, scale to millions" |
-| **InVideo** | 50% first-order high commission |
+The original repo name-dropped these companies without linking sources. Here's where the claims actually come from — read the real thing:
+
+| Company | Claim Used | Actual Source |
+|:---|:---|:---|
+| **HeyGen** | "1,800 user interviews to find PMF" | Unverified. No public source confirms this exact number. HeyGen hit [$100M ARR in ~29 months](https://ahmadullin.com/heygen-hits-100m-arr-product-strategy-overview/). Their Fiverr MVP validation is referenced in multiple teardowns but the "1,800 interviews" figure appears to originate from the original author. |
+| **Deel** | "Partner program contributing $90M ARR" | Tai Rattigan (Deel's Global Head of Partnerships) shared this in a [Partnership Leaders webinar](https://medium.com/@partnershipleaders/the-secrets-behind-deels-partner-program-eb5281a60eff): "$90M+ revenue for the Deel ecosystem" with 5,000+ partners and ~20% of Deel's revenue from partner referrals. |
+| **Vercel** | "'The Frontend Cloud' category creation" | Guillermo Rauch discussed this on the [First Round Review podcast](https://review.firstround.com/podcast/how-vercel-found-extreme-product-market-fit-by-focusing-on-simplification-guillermo-rauch-vercels-ceo/). They've since pivoted to "The AI Cloud" after their [$300M Series F at $9.3B](https://www.businesswire.com/news/home/20250930898216/en/Vercel-Closes-Series-F-at-%249.3B-Valuation-to-Scale-the-AI-Cloud). |
+| **Supabase** | "Build in a weekend, scale to millions" | That's just their tagline. The real growth story is in [Craft Ventures' inside account](https://www.craftventures.com/articles/inside-supabases-product-community-led-growth) of their PLG engine, and how renaming from "realtime Postgres" to "The Open-Source Firebase Alternative" [triggered explosive growth](https://medium.com/craft-ventures/inside-supabases-breakout-growth-lessons-scaling-to-4-5m-devs-powering-ai-vibe-coding-dc574acfafaa) (1M to 4.5M devs in under a year). |
+| **InVideo** | "50% first-order high commission" | That's just [their affiliate page](https://invideo.io/make/affiliate-program/): 50% on monthly plans, 25% on annual. It's a commission rate, not a growth insight. |
 
 ---
 

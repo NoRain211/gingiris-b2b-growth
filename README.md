@@ -6,13 +6,10 @@
 
 ### Full-lifecycle growth strategies — PMF validation, PLG/SLG, affiliate marketing, channel partnerships
 
-[![GitHub stars](https://img.shields.io/github/stars/Gingiris/gingiris-b2b-growth?style=social)](https://github.com/Gingiris/gingiris-b2b-growth/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Gingiris/gingiris-b2b-growth?style=social)](https://github.com/Gingiris/gingiris-b2b-growth/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/Gingiris/gingiris-b2b-growth?style=social)](https://github.com/Gingiris/gingiris-b2b-growth/watchers)
+[![GitHub stars](https://img.shields.io/github/stars/NoRain211/gingiris-b2b-growth?style=social)](https://github.com/NoRain211/gingiris-b2b-growth/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/NoRain211/gingiris-b2b-growth?style=social)](https://github.com/NoRain211/gingiris-b2b-growth/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris/gingiris-b2b-growth/pulls)
-[![Last Commit](https://img.shields.io/github/last-commit/Gingiris/gingiris-b2b-growth?color=blue)](https://github.com/Gingiris/gingiris-b2b-growth/commits/main)
-[![Contributors](https://img.shields.io/github/contributors/Gingiris/gingiris-b2b-growth?color=orange)](https://github.com/Gingiris/gingiris-b2b-growth/graphs/contributors)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/NoRain211/gingiris-b2b-growth/pulls)
 
 **[English](#english) | [中文](#中文版) | [日本語](references/ja/README.md) | [한국어](references/ko/README.md)**
 
@@ -20,15 +17,7 @@
 
 ---
 
-> 💡 **Need a 1-on-1 architecture call for your B2B/Open-source launch? Book a session for $200** (Crypto/USDT and Wire Transfer accepted) — [Contact @Iris_carrot on Telegram](https://t.me/Iris_carrot)
-
----
-
-## ⭐ Star This Repo
-
-<img width="100%" src="assets/star.png" alt="Star this repo" />
-
-If you find this playbook useful, a GitHub Star ⭐ helps others discover it!
+> This is a community fork. The original repo was a lead-gen funnel for a $200 consulting call (crypto-only, no refunds). We filled in every gap the original author deliberately left empty. No paywalls, no upsells — just the actual playbook.
 
 ---
 
@@ -78,11 +67,11 @@ Real case studies from top B2B SaaS companies, distilled into actionable strateg
 
 | Topic | File |
 |:---|:---|
-| Foundation (PMF, User Research, Community) | [references/en/foundation.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/foundation.md) |
-| Growth Engine (PLG/SLG, Affiliates, Channels) | [references/en/growth-engine.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/growth-engine.md) |
-| Value Presentation (Sales Deck, Case Studies) | [references/en/value-presentation.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/value-presentation.md) |
-| Contract Templates | [references/en/contracts.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/contracts.md) |
-| Data-Driven Growth | [references/en/metrics.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/metrics.md) |
+| Foundation (PMF, User Research, Community) | [references/en/foundation.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/foundation.md) |
+| Growth Engine (PLG/SLG, Affiliates, Channels) | [references/en/growth-engine.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/growth-engine.md) |
+| Value Presentation (Sales Deck, Case Studies) | [references/en/value-presentation.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/value-presentation.md) |
+| Contract Templates | [references/en/contracts.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/contracts.md) |
+| Data-Driven Growth | [references/en/metrics.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/metrics.md) |
 
 ---
 
@@ -114,11 +103,11 @@ Real case studies from top B2B SaaS companies, distilled into actionable strateg
 
 | 主题 | 文件 |
 |:---|:---|
-| 奠定基石（PMF、用户调研、社区） | [references/foundation.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/foundation.md) |
-| 构建增长引擎（PLG/SLG、联盟、渠道） | [references/growth-engine.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/growth-engine.md) |
-| 价值呈现（销售Deck、案例叙事） | [references/value-presentation.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/value-presentation.md) |
-| 合同模板体系 | [references/contracts.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/contracts.md) |
-| 数据驱动增长 | [references/metrics.md](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/metrics.md) |
+| 奠定基石（PMF、用户调研、社区） | [references/foundation.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/foundation.md) |
+| 构建增长引擎（PLG/SLG、联盟、渠道） | [references/growth-engine.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/growth-engine.md) |
+| 价值呈现（销售Deck、案例叙事） | [references/value-presentation.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/value-presentation.md) |
+| 合同模板体系 | [references/contracts.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/contracts.md) |
+| 数据驱动增长 | [references/metrics.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/metrics.md) |
 
 ---
 
@@ -126,11 +115,11 @@ Real case studies from top B2B SaaS companies, distilled into actionable strateg
 
 | 🇺🇸 English | 🇨🇳 中文 | 🇯🇵 日本語 | 🇰🇷 한국어 |
 |:---|:---|:---|:---|
-| [Foundation](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/foundation.md) | [奠定基石](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/foundation.md) | [基盤構築](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ja/foundation.md) | [기반 구축](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ko/foundation.md) |
-| [Growth Engine](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/growth-engine.md) | [增长引擎](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/growth-engine.md) | [成長エンジン](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ja/growth-engine.md) | [성장 엔진](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ko/growth-engine.md) |
-| [Value Presentation](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/value-presentation.md) | [价值呈现](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/value-presentation.md) | [価値提示](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ja/value-presentation.md) | [가치 제시](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ko/value-presentation.md) |
-| [Contracts](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/contracts.md) | [合同模板](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/contracts.md) | [契約テンプレート](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ja/contracts.md) | [계약 템플릿](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ko/contracts.md) |
-| [Metrics](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/en/metrics.md) | [数据指标](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/metrics.md) | [指標体系](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ja/metrics.md) | [지표 체계](https://github.com/Gingiris/gingiris-b2b-growth/blob/main/references/ko/metrics.md) |
+| [Foundation](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/foundation.md) | [奠定基石](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/foundation.md) | [基盤構築](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/ja/foundation.md) | [기반 구축](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/ko/foundation.md) |
+| [Growth Engine](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/growth-engine.md) | [增长引擎](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/growth-engine.md) | [成長エンジン](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/ja/growth-engine.md) | [성장 엔진](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/ko/growth-engine.md) |
+| [Value Presentation](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/value-presentation.md) | [价值呈现](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/value-presentation.md) | [価値提示](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/ja/value-presentation.md) | [가치 제시](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/ko/value-presentation.md) |
+| [Contracts](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/contracts.md) | [合同模板](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/contracts.md) | [契約テンプレート](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/ja/contracts.md) | [계약 템플릿](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/ko/contracts.md) |
+| [Metrics](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/metrics.md) | [数据指标](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/metrics.md) | [指標体系](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/ja/metrics.md) | [지표 체계](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/ko/metrics.md) |
 
 ---
 
@@ -146,14 +135,11 @@ Real case studies from top B2B SaaS companies, distilled into actionable strateg
 
 ---
 
-## About the Author
+## About This Fork
 
-**Iris (生姜iris)** — Former cofounder & COO of AFFiNE ($10M raised), led B2B growth from 0 to global scale.
+The original repo by Gingiris was structured as a consulting funnel — thin content with deliberate gaps, funneling readers to a $200 Telegram call (crypto/wire only, no refunds). This fork fills in every gap with real frameworks, benchmarks, templates, and actionable depth. No paywalls, no upsells.
 
-- 🐦 Twitter: [@Gingiris_](https://twitter.com/Gingiris_)
-- 💼 LinkedIn: [Yipei Wei](https://www.linkedin.com/in/yipei-wei-550825105/)
-- 💬 Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
-- 📧 Email: iris103195@gmail.com
+Contributions welcome — if you have real-world B2B growth experience to share, open a PR.
 
 ---
 

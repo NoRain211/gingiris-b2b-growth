@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="Gingiris Logo" width="120" />
-
 # B2B SaaS Growth Playbook
 
-### Full-lifecycle growth strategies — PMF validation, PLG/SLG, affiliate marketing, channel partnerships
+### No paywall. No $200 consulting call. No BS. Just the actual playbook.
 
 [![GitHub stars](https://img.shields.io/github/stars/NoRain211/gingiris-b2b-growth?style=social)](https://github.com/NoRain211/gingiris-b2b-growth/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/NoRain211/gingiris-b2b-growth?style=social)](https://github.com/NoRain211/gingiris-b2b-growth/network/members)
@@ -17,27 +15,28 @@
 
 ---
 
-> This is a community fork. The original repo was a lead-gen funnel for a $200 consulting call (crypto-only, no refunds). We filled in every gap the original author deliberately left empty. No paywalls, no upsells — just the actual playbook.
+> **What happened here:** The original repo was a lead-gen funnel disguised as open source — thin outlines with deliberate gaps, designed to push you toward a $200 "consulting call" (crypto/wire only, no refunds, via Telegram DM). We forked it and filled in every gap with real frameworks, real benchmarks, and real templates. 5,000+ lines of actual substance. No upsell, no CTA, no paywall. Just use it.
 
 ---
 
-## Why This Playbook?
+## What's Actually In Here
 
-Real case studies from top B2B SaaS companies, distilled into actionable strategies:
+This isn't a table of contents pretending to be a playbook. Every section has real depth:
 
-| Company | Key Insight |
-|---------|-------------|
-| **HeyGen** | 1,800 user interviews to find PMF, 20% recurring commission model |
-| **Deel** | Partner program contributing $90M ARR, tiered certification system |
-| **Vercel** | "The Frontend Cloud" — category creation masterclass |
-| **Supabase** | "Build in a weekend, scale to millions" |
-| **AWS** | Partner ecosystem best practices |
+| What You Get | Not The Usual... |
+|:---|:---|
+| PQL scoring models with point weights and thresholds | "PLG is when the product sells itself" |
+| 30-day SDR outreach cadences with 12 touchpoints | "Reach out to leads via multiple channels" |
+| Sean Ellis PMF survey with real benchmarks (Slack 51%, Notion 45%) | "Talk to users and find product-market fit" |
+| MEDDPICC qualification with discovery questions and red flags | "Use BANT to qualify leads" |
+| Actual MSA clause language with liability cap structures | Contract templates full of [PLACEHOLDER] |
+| Cohort analysis with SQL examples and interpretation guides | "Track your retention metrics" |
+| Commission rate formulas with worked examples | "Design a competitive commission structure" |
+| Van Westendorp pricing research methodology | "Price your product competitively" |
 
 ---
 
 ## English
-
-> Version: v4.0 (Ultimate Edition) | Integrates best practices from HeyGen, Deel, Vercel, Supabase, AWS
 
 ### Core Framework: Growth Flywheel
 
@@ -65,19 +64,17 @@ Real case studies from top B2B SaaS companies, distilled into actionable strateg
 
 ### Detailed Guides (English)
 
-| Topic | File |
+| Guide | What's Inside |
 |:---|:---|
-| Foundation (PMF, User Research, Community) | [references/en/foundation.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/foundation.md) |
-| Growth Engine (PLG/SLG, Affiliates, Channels) | [references/en/growth-engine.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/growth-engine.md) |
-| Value Presentation (Sales Deck, Case Studies) | [references/en/value-presentation.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/value-presentation.md) |
-| Contract Templates | [references/en/contracts.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/contracts.md) |
-| Data-Driven Growth | [references/en/metrics.md](https://github.com/NoRain211/gingiris-b2b-growth/blob/main/references/en/metrics.md) |
+| [Foundation](references/en/foundation.md) | PMF validation (Sean Ellis, Superhuman engine), user interviews with real questions, pricing strategy, retention & activation, competitive intelligence, community playbooks |
+| [Growth Engine](references/en/growth-engine.md) | PQL scoring models, PLG/SLG handoff workflows, affiliate programs with fraud detection, channel partner tiers, 30-day SDR cadences, MEDDPICC, international expansion |
+| [Value Presentation](references/en/value-presentation.md) | JTBD + Value Proposition Canvas, 9-slide deck with real guidance per slide, ROI calculators, demo best practices, battlecards, proposal writing |
+| [Contracts](references/en/contracts.md) | Filled-in SOR/SOW/MSA/NDA templates, actual clause language, SaaS subscription agreements, partner agreements, negotiation playbook by company size |
+| [Metrics](references/en/metrics.md) | North Star selection, AARRR with benchmarks, Quick Ratio, Rule of 40, NDR, cohort analysis with SQL, churn prediction, board deck metrics by funding stage, data infrastructure setup |
 
 ---
 
 ## 中文版
-
-> 版本：v4.0（终极融合版）| 整合 HeyGen、Deel、Vercel、Supabase、AWS 等标杆案例
 
 ### 核心框架：增长飞轮
 

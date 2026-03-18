@@ -122,7 +122,7 @@ These are medians and top-quartile numbers for B2B SaaS. Your numbers will vary 
 | Month 3 retention | 25-35% | >45% | This is where most products lose people |
 | Month 12 retention | 15-25% | >35% | If this is under 15%, you have a product problem, not a growth problem |
 | Logo retention (annual) | 85-90% | >95% | B2B contracts help here |
-| Net Dollar Retention | 100-110% | >130% | Best-in-class expands faster than they churn |
+| Net Dollar Retention | 101% | >120% | Median NRR has compressed (Benchmarkit/Maxio 2025). Enterprise ~118%, SMB 97%. Best-in-class >120%. |
 
 #### Revenue
 
@@ -229,12 +229,12 @@ Each stage should have its own dashboard with 3-5 metrics. Here's a starting poi
 |:---|:---|:---|:---|
 | **CAC** | Customer Acquisition Cost | Total Sales & Marketing Spend / New Customers Acquired | Depends on ACV |
 | **LTV** | Customer Lifetime Value | ARPU × Gross Margin % × (1 / Monthly Churn Rate) | >3× CAC |
-| **LTV/CAC** | Acquisition Efficiency | LTV / CAC | 3:1 to 5:1 |
-| **CAC Payback** | Months to recover acquisition cost | CAC / (ARPU × Gross Margin %) | <18 months (SMB: <12) |
+| **LTV/CAC** | Acquisition Efficiency | LTV / CAC | 3:1 minimum, 4:1 target |
+| **CAC Payback** | Months to recover acquisition cost | CAC / (ARPU × Gross Margin %) | Median 15-18 months (best-in-class <12) |
 
 **Note on LTV calculation:** The simple formula (ARPU × lifespan) overstates LTV because it ignores gross margin. If your ARPU is $100/mo but your gross margin is 70%, your contribution per month is $70, not $100. Always use gross-margin-adjusted LTV.
 
-**Note on LTV/CAC:** A ratio above 5:1 usually means you're underinvesting in growth, not that you're efficient. You're leaving money on the table.
+**Note on LTV/CAC:** 3:1 minimum, 4:1 target for B2B SaaS. Ratios above 5:1 may signal underinvestment in growth (Optifai Pipeline Study 2026, N=939 B2B SaaS companies, median 3.2:1).
 
 ### Activation Metrics
 
@@ -249,10 +249,12 @@ Each stage should have its own dashboard with 3-5 metrics. Here's a starting poi
 | Metric | Formula | Notes |
 |:---|:---|:---|
 | **D1 Retention** | Users active on day 2 / Users signed up on day 1 | More relevant for daily-use products |
-| **D7 Retention** | Users active on day 8 / Users signed up on day 1 | Key inflection point for most SaaS |
+| **D7 Retention** | Users active on day 8 / Users signed up on day 1 | Key inflection point for most SaaS. See methodology note below. |
 | **D30 Retention** | Users active on day 31 / Users signed up on day 1 | Strong predictor of long-term retention |
 | **Logo Retention** | (Customers at start - Churned customers) / Customers at start | Monthly or annual |
 | **Net Dollar Retention** | (Starting MRR + Expansion - Contraction - Churn) / Starting MRR | Best single metric for product-market fit |
+
+**Note on D7 retention benchmarks:** The commonly cited 25-40% range assumes "percentage of users returning at least once in the first seven days" (account-level; June.so benchmark: median 27%, top quartile 47%). If measured as daily-active user return rate, benchmarks are significantly lower — 7% puts you in top quartile (Amplitude 2025 Product Benchmark Report, N=2,600+ companies). Always specify your measurement method.
 
 ### Revenue Metrics
 
@@ -278,6 +280,9 @@ Each stage should have its own dashboard with 3-5 metrics. Here's a starting poi
 - It's actionable. You can shorten payback by increasing ARPU (pricing), reducing CAC (efficiency), or improving gross margin (infrastructure costs).
 
 **Benchmarks:**
+
+Median CAC payback has risen to 15-18 months (Benchmarkit 2025 reports 18 months, up from 14 months prior year). Best-in-class remains <12 months.
+
 | Segment | Good | Great |
 |:---|:---|:---|
 | SMB SaaS | <12 months | <6 months |
@@ -303,6 +308,8 @@ If your payback period is over 24 months, you're burning cash to grow. That only
 A quick ratio of 4 means for every $1 you lose to churn, you're bringing in $4 of new + expansion revenue. Best-in-class B2B SaaS companies operate at 4+.
 
 **Warning:** A high quick ratio built on new MRR (lots of new customers) is less durable than one built on expansion MRR (existing customers paying more). Expansion is cheaper and stickier.
+
+**Expansion revenue shift:** Expansion revenue now represents ~40% of total new ARR (Benchmarkit 2025), up from 25% in 2022, and >50% for companies above $50M ARR. This is a fundamental shift — land-and-expand is no longer optional.
 
 #### Gross Margin
 
@@ -370,8 +377,10 @@ AI-heavy SaaS companies: watch this closely. Every LLM API call eats into your m
 | <90% | Serious problem. Your product isn't sticky or your pricing doesn't grow with usage. |
 | 90-100% | You're replacing churn but not expanding. |
 | 100-110% | Good. Existing customers are growing slightly. |
-| 110-130% | Great. Strong expansion revenue. |
-| >130% | Best-in-class. Snowflake, Datadog, Twilio territory. |
+| 110-120% | Great. Strong expansion revenue. |
+| >120% | Best-in-class. Snowflake, Datadog, Twilio territory. |
+
+Median NRR has compressed to 101% (Benchmarkit/Maxio 2025), down from 105% in 2021. Enterprise segment: ~118%. SMB: 97%. The post-2022 compression is industry-wide.
 
 NDR > 100% means you can grow even with zero new customers. This is the most powerful growth engine in SaaS.
 
@@ -447,7 +456,7 @@ What you need depends on where you are. Don't buy enterprise tools when you have
 
 | Need | Tool | Cost | Notes |
 |:---|:---|:---|:---|
-| Product analytics | **PostHog** (self-hosted) | Free | Full analytics suite, session replay, feature flags. Self-host on a $20/mo VPS. |
+| Product analytics | **PostHog** (self-hosted) | Free | All-in-one: analytics, session replay, feature flags, A/B testing, surveys, error tracking, CDP, data warehouse. $1.4B company (Series E, Oct 2025), growing 138% YoY. Self-host on a $20/mo VPS. |
 | Product analytics | **PostHog** (cloud) | Free up to 1M events/mo | Easiest option if you don't want to manage infrastructure |
 | Web analytics | **Plausible** | $9/mo or self-hosted free | Privacy-friendly, lightweight, no cookies |
 | Web analytics | **Umami** | Self-hosted free | Open-source, simple, privacy-focused |
@@ -469,8 +478,8 @@ What you need depends on where you are. Don't buy enterprise tools when you have
 
 | Need | Tool | Cost | Notes |
 |:---|:---|:---|:---|
-| Product analytics | **Amplitude** | Free up to 10M events/mo | Better behavioral analytics than Mixpanel at this tier |
-| Product analytics | **Mixpanel** | Free up to 20M events/mo | Simpler, faster for event analytics |
+| Product analytics | **Amplitude** | Free up to 10M events/mo | Acquired June.so and Command AI (2025). "Ask Amplitude" AI assistant. Actively expanding platform. |
+| Product analytics | **Mixpanel** | Free up to 20M events/mo | Switched to event-based pricing (Feb 2025), 20M free events/mo. Added session replay, heatmaps, AI assistant. |
 | Product analytics | **PostHog** (cloud) | $0.00031/event after free tier | Scales well, all-in-one |
 | Data integration | **Segment** | $120/mo (startup plan) | Worth it once you have 5+ tools to integrate |
 | Session replay | **LogRocket** | $99/mo+ | Better debugging features than Hotjar for SaaS |
@@ -514,6 +523,25 @@ If you're bootstrapped or just hate paying for SaaS with SaaS:
 | Fivetran | **Airbyte** | 300+ connectors, very active community |
 | FullStory | **OpenReplay** | Self-hosted session replay |
 | Sentry | **GlitchTip** | Simpler, but covers the basics |
+
+### Tool Status Updates (2025)
+
+**Dead or acquired tools — do not adopt:**
+- **Heap** — acquired by Contentsquare (December 2023), being absorbed into Contentsquare platform. Use PostHog, Amplitude, or Mixpanel instead.
+- **June.so** — acquired by Amplitude (August 2025), product being sunset. Use Amplitude directly.
+- **Koala** — shut down September 30, 2025 (acquired by Cursor). Remove from consideration.
+- **Toplyne** — shut down October 2024, returned capital to investors. Remove from consideration.
+- **Calixa** — shut down 2023. Remove from consideration.
+- **Crossbeam + Reveal** — merged June 2024 into single entity called Crossbeam (25,000+ companies). Use the unified Crossbeam platform.
+
+**Notable additions and updates:**
+| Tool | Category | Notes |
+|:---|:---|:---|
+| **Pendo** | Product analytics + in-app guides | $200M revenue 2024, acquired Forwrd.ai |
+| **Common Room** | AI-powered sales intelligence | $52.9M raised, community-led growth intelligence |
+| **Pocus** | Product-led sales | Surviving PLS platform for signal-based selling |
+| **Orb** | Revenue infrastructure | $44M Series B, key billing platform for AI companies. Metronome alternative (Metronome acquired by Stripe for $1B, December 2025). |
+| **Paddle** | Merchant of Record | MoR leader, acquired ProfitWell. Handles billing, tax, compliance. |
 
 ### Setting Up a Data Stack on a Budget ($0-50/month)
 
@@ -903,10 +931,12 @@ Annual Churn = 1 - (1 - Monthly Churn)^12
 
 **Benchmarks:**
 
+Average B2B SaaS monthly churn is 3.5% (Recurly 2025, N=1,200+ companies). By segment:
+
 | Segment | Monthly Logo Churn | Annual Logo Churn |
 |:---|:---|:---|
-| Enterprise SaaS | 0.5-1% | 5-10% |
-| Mid-market SaaS | 1-2% | 10-22% |
+| Enterprise SaaS | <1% | 5-10% |
+| Mid-market SaaS | 1.5-3% | 10-22% |
 | SMB SaaS | 3-5% | 31-46% |
 | Consumer SaaS | 5-10% | 46-72% |
 
@@ -1094,11 +1124,11 @@ VCs at A want repeatable growth and clear PMF signals.
 
 | Metric | What They Want to See |
 |:---|:---|
-| **ARR** | $1-3M, growing 2-3× YoY |
+| **ARR** | $1-3M, growing 1.5-2× YoY |
 | **MRR growth** | 10-20% month-over-month |
 | **NDR** | >100%, ideally >110% |
 | **Logo retention** | >85% annually |
-| **LTV/CAC** | >3:1 |
+| **LTV/CAC** | >3:1, target 4:1 |
 | **CAC payback** | <18 months |
 | **Gross margin** | >65% |
 | **Burn multiple** | <2× |
@@ -1131,7 +1161,7 @@ At this stage, you're being evaluated like a pre-IPO company.
 
 | Metric | What They Want to See |
 |:---|:---|
-| **ARR** | $20M+, growing 50%+ YoY |
+| **ARR** | $20M+, growing 30-50% YoY |
 | **NDR** | >120% |
 | **Gross margin** | >75% |
 | **Rule of 40** | >60 |
@@ -1201,12 +1231,14 @@ At this stage, you're being evaluated like a pre-IPO company.
 | Metric | Seed | Series A | Series B | Series C |
 |:---|:---|:---|:---|:---|
 | ARR | $0-$1M | $1-5M | $5-20M | $20M+ |
-| YoY Growth | N/A | 2-3× | 2× | 50-80% |
+| YoY Growth | N/A | 1.5-2× | 1.5× | 26-40% |
 | NDR | N/A | >100% | >110% | >120% |
 | Gross Margin | >50% | >65% | >70% | >75% |
 | Burn Multiple | <3× | <2× | <1.5× | <1× |
 | CAC Payback | <24mo | <18mo | <12mo | <12mo |
 | Rule of 40 | N/A | N/A | >30 | >40 |
+
+**Note on growth rate benchmarks:** Median annual ARR growth dropped to 26-28% in 2025 (Lighter Capital, N=155; Benchmarkit). Top quartile fell from 88% to 65%. The era of 50%+ median growth is over. Adjust expectations accordingly at every stage.
 
 ---
 

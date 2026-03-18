@@ -13,7 +13,7 @@ Most successful B2B companies don't pick one — they run both simultaneously. P
 
 | Motion | Metric | Typical Range | Top Quartile |
 |:---|:---|:---|:---|
-| **Freemium → Paid** | Free-to-paid conversion | 2–5% | 7–10% |
+| **Freemium → Paid** | Free-to-paid conversion | 2–5% (self-serve base case) | 8–15% (sales-assist PLG) |
 | **Free Trial (no CC)** | Trial-to-paid conversion | 8–15% | 18–25% |
 | **Free Trial (CC required)** | Trial-to-paid conversion | 30–50% | 55–65% |
 | **Reverse Trial** | Downgrade prevention rate | 40–60% | 65%+ |
@@ -21,7 +21,13 @@ Most successful B2B companies don't pick one — they run both simultaneously. P
 | **SQL → Closed Won** | Win rate (PLG-sourced) | 25–40% | 45%+ |
 | **PLG-sourced ACV** | Average contract value | Lower than outbound | Comparable after expansion |
 
-Reverse trials (full features for N days, then downgrade to free) consistently outperform both pure freemium and standard free trials. Notion, Airtable, and Figma all moved toward this model.
+**Freemium conversion context:** 2–5% is the base-case range for pure self-serve freemium (First Page Sage 2026: ~2.6% organic). Top-quartile PLG companies with sales-assist reach 8–15%. PQL-driven motions see ~25% conversion. The spread between self-serve and PQL-assisted paths has widened significantly.
+
+### Reverse Trials
+
+Reverse trials — where users get full paid features temporarily, then drop to free — outperform both permanent free tiers and standard time-limited trials. Some case studies show 83% conversion rates. Notion, Airtable, and Figma have all moved toward this model.
+
+**Why reverse trials work:** users experience the full product value before being asked to pay. By the time the trial expires, they've built workflows around premium features and have a concrete sense of what they'd lose. This inverts the psychology of a standard free tier, where users never see what they're missing.
 
 ### PQL (Product Qualified Lead) Scoring Model
 
@@ -385,7 +391,7 @@ Minimum viable partner portal:
 - Support ticket escalation path
 - Performance dashboard: pipeline, revenue, conversion rates
 
-Don't build this from scratch. Use Crossbeam or Reveal for account mapping, and PartnerStack or Allbound for the portal.
+Don't build this from scratch. Use Crossbeam for account mapping (Crossbeam and Reveal merged in June 2024; the combined platform operates under the Crossbeam name), and PartnerStack or Allbound for the portal.
 
 ### Handling Channel Conflict
 
@@ -650,6 +656,8 @@ Thought leadership is not rewriting what everyone else says. It's having a contr
 
 Product-led sales (PLS) is not the same as PLG. PLG is about self-serve acquisition. PLS is about using product usage data to drive expansion revenue within existing accounts. This is where the real money is — net revenue retention above 120% comes from PLS.
 
+> **2025–2026 landscape note:** The PLG-vs-SLG binary has collapsed. The dominant model is now hybrid PLS, where product usage signals trigger automated sales engagement. PQLs convert at 25–30% versus 5–10% for MQLs. The standalone PLS tool category has largely imploded — Calixa shut down in 2023, Toplyne wound down in October 2024, Koala was acquired and shut down in 2025. The function has migrated into broader platforms like Common Room and Pocus.
+
 ### Usage-Based Expansion Playbook
 
 #### Expansion Triggers
@@ -715,6 +723,18 @@ How you design usage limits determines your free-to-paid conversion rate more th
 
 **The 80/20 rule for limits:** Your free tier should give users 80% of the functionality but only 20% of the scale. They should be able to do everything (proving value) but not at the volume they need for real work.
 
+### Usage-Based Pricing Mechanics
+
+77% of the largest software companies now incorporate consumption pricing. Stripe's $1B acquisition of Metronome (December 2025) confirmed usage-based billing as mainstream infrastructure.
+
+**Key platforms:**
+- **Orb** — $44M Series B, strong API-first metering and billing
+- **Stripe/Metronome** — enterprise-grade usage billing, now integrated into Stripe's stack
+- **M3ter** — metering and pricing engine for B2B SaaS
+- **Lago** — open-source alternative for teams that want to self-host
+
+If your product's value scales with usage, hybrid pricing (base platform fee + usage component) is now the default model for AI-native SaaS. Pure seat-based pricing is increasingly misaligned with how AI products deliver value — a team of 5 using an AI tool heavily may generate 10x the compute cost of a team of 50 using it lightly.
+
 ---
 
 ## 7. International Expansion
@@ -753,6 +773,17 @@ Localization is not translation. It's adapting your product, marketing, pricing,
 | **Tier 2: Serious** | Product UI translated, local case studies, local content/SEO, in-market SDR or partner, local domain (e.g., .de, .co.jp) | $200K–$500K | When market contributes 5%+ of revenue |
 | **Tier 3: Full** | Local entity, local team (sales + CS + marketing), local data residency, full product localization (including date/time/number formats, RTL support), local partnerships | $1M+ | When market contributes 15%+ of revenue or strategic priority |
 
+### Merchant of Record (MoR) for International Billing
+
+For international SaaS billing, Merchant of Record providers handle tax compliance, currency conversion, and local payment methods — removing significant operational burden from your team.
+
+| Provider | Pricing | Notes |
+|:---|:---|:---|
+| **Paddle** | 5% + $0.50 per transaction | Established MoR leader, handles VAT/GST globally |
+| **Stripe (MoR beta)** | ~7.9% + $0.30 per transaction | Launched MoR offering; acquired Lemon Squeezy (July 2024) |
+
+This is a critical infrastructure decision affecting margins and time-to-market. MoR providers are more expensive than standard payment processing, but they eliminate the need to register for VAT/GST in each country, handle local tax remittance, and manage refunds/chargebacks under local consumer protection law. For companies under ~$10M ARR expanding internationally, MoR is almost always the right choice versus building tax compliance in-house.
+
 ### Compliance Considerations by Region
 
 | Region | Key Regulations | What It Means For You |
@@ -789,3 +820,58 @@ In most non-English-speaking markets, local partners are your fastest path to re
 - Exclusivity only for specific verticals or regions within the country, never country-wide exclusivity
 - Minimum revenue commitments with annual review
 - Co-investment in local marketing (MDF funded at higher rate than domestic)
+
+---
+
+## 8. AI-Native GTM
+
+AI is reshaping go-to-market operations, particularly outbound sales and onboarding. This is not speculative — the tooling is production-ready and the economics are measurable.
+
+### AI SDRs: Autonomous Outbound
+
+AI SDR tools handle prospecting, sequencing, and initial outreach autonomously. They research prospects, personalize messaging, manage multi-step cadences, and hand off warm leads to human reps.
+
+**Key players:**
+- **11x.ai** — AI SDR ("Alice") that handles full outbound sequences
+- **Artisan** — AI-powered BDR platform with built-in data enrichment
+- **Regie.ai** — AI content and sequencing for outbound motions
+- **Clay** — data enrichment and workflow automation for GTM teams (not a pure AI SDR, but a core part of the stack)
+
+**Performance benchmarks:**
+- AI SDRs achieve 4–7x the conversion rate of manual outreach, primarily through better personalization at scale and optimal send-time optimization
+- Cost reduction of ~70% compared to fully loaded human SDR costs
+- AI SDR market growing at 20.2% CAGR
+
+### When to Use AI SDRs vs. Human SDRs
+
+AI SDRs are not a universal replacement. The decision depends on deal complexity and volume.
+
+| Scenario | Best Fit | Why |
+|:---|:---|:---|
+| **High-volume SMB/mid-market outbound** | AI SDR | Volume play where personalization-at-scale matters more than deep relationship building |
+| **Complex enterprise deals ($100K+ ACV)** | Human SDR | Nuanced discovery, executive relationship building, and multi-threaded engagement require human judgment |
+| **Inbound lead qualification** | AI SDR | Fast response time and consistent qualification criteria at any volume |
+| **Named account / ABM lists** | Human SDR with AI assist | Human strategy and relationship, AI handles research and sequencing |
+| **Re-engagement of churned or stalled leads** | AI SDR | High volume, lower stakes, benefits from systematic cadence management |
+
+The practical approach for most B2B companies: use AI SDRs for top-of-funnel volume (first touch through initial qualification), then hand off to human SDRs/AEs once a prospect is engaged and the deal requires strategic judgment.
+
+### Evaluating AI SDR Tools
+
+Before buying, assess:
+
+- **CRM integration** — Does it write directly to Salesforce/HubSpot? Can your AEs see the full AI-generated conversation history?
+- **Personalization depth** — Is it just "Hi {first_name}, I saw you work at {company}"? Or does it actually research the prospect's recent activity, company news, and tech stack?
+- **Email compliance** — Does it respect CAN-SPAM, GDPR consent requirements, and sending domain reputation? A tool that burns your domain is worse than no tool.
+- **Handoff quality** — When a prospect responds positively, how does the handoff to a human rep work? Is context preserved? Is it seamless or jarring for the prospect?
+- **Reporting and attribution** — Can you measure pipeline generated, conversion rates by segment, and A/B test messaging variants?
+
+### AI-Powered Onboarding Personalization
+
+Beyond outbound, AI is transforming how new users experience your product:
+
+- **Dynamic onboarding flows** — AI analyzes a user's role, company size, and stated goals to customize the onboarding path. Instead of one generic tour, each user sees the features most relevant to their use case.
+- **Intelligent help and guidance** — AI copilots (in-app chat, contextual suggestions) reduce time-to-value by answering questions in context rather than sending users to a knowledge base.
+- **Proactive intervention** — AI identifies users who are struggling (repeated failed actions, session drops at specific steps) and triggers targeted help before the user churns.
+
+The companies seeing the best results combine AI SDRs on the acquisition side with AI-powered onboarding on the activation side — reducing both CAC and time-to-value simultaneously.

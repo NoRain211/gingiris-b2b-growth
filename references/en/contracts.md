@@ -438,11 +438,38 @@ If the vendor processes personal data on behalf of the client, you need a DPA. K
 | **Audit rights** | Client or its auditor may audit Vendor's data processing activities (see Section 3.10) |
 | **Deletion/return** | Upon termination, Vendor deletes all personal data within 30 days |
 
+**AI-Specific Processing Provisions (2025-2026 Update):**
+
+When the services involve AI or machine learning components, the DPA should additionally address:
+
+| AI DPA Provision | What It Covers |
+|:---|:---|
+| **AI model training** | Whether personal data is used for AI model training — must be explicitly documented; opt-out or prohibition clauses should be default |
+| **AI output transparency** | Transparency obligations for AI-generated outputs — Client and end users must be informed when content is AI-generated |
+| **Human oversight** | Human oversight requirements for automated decisions affecting data subjects, consistent with GDPR Article 22 and the EU AI Act |
+| **Sub-processor AI usage** | Restrictions on sub-processors using Client Data for their own AI training or development purposes |
+| **Transfer Impact Assessment** | Transfer Impact Assessment (TIA) requirements for cross-border data transfers, documenting the legal framework and supplementary measures in the recipient country |
+
+**Cross-border transfer note:** The EU-US Data Privacy Framework was upheld by the General Court in September 2025, but the CJEU appeal was filed in October 2025 and remains pending. Until the appeal is resolved, maintain Standard Contractual Clauses (SCCs) as a fallback mechanism for all EU-US data transfers. Do not rely solely on the Data Privacy Framework adequacy decision.
+
 **CCPA-specific additions:**
 > Vendor shall not sell, share, or use Client's personal information for any purpose other than providing the Services. Vendor shall not combine Client's personal information with personal information received from other sources, except as permitted by the CCPA. Vendor certifies that it understands and will comply with these restrictions.
 
 **Security requirements:**
 > Vendor shall maintain information security controls consistent with SOC 2 Type II standards, including but not limited to: access controls (role-based, MFA), encryption in transit (TLS 1.3) and at rest (AES-256), logging and monitoring, vulnerability management (patch critical vulnerabilities within 14 days), and annual penetration testing. Vendor shall provide Client with its most recent SOC 2 Type II report within ten (10) business days of request.
+
+**Expanded certification requirements (2025-2026 Update):**
+
+SOC 2 Type II remains the baseline, but enterprise and EU-facing contracts increasingly require additional certifications:
+
+| Certification | Scope | When Required |
+|:---|:---|:---|
+| **SOC 2 Type II** | Security, availability, processing integrity, confidentiality, privacy | Baseline for all B2B SaaS contracts |
+| **ISO 27001** | Information security management system (ISMS) | Increasingly expected for EU-facing SaaS; many EU procurement processes now mandate it |
+| **ISO 42001** | AI management system — the first international standard for responsible AI governance | Required when services include AI/ML components; covers risk management, transparency, and accountability for AI systems |
+| **NIST CSF 2.0** | Cybersecurity framework covering Govern, Identify, Protect, Detect, Respond, Recover | Standard reference for US federal and regulated-industry contracts; updated in 2024 with new "Govern" function |
+
+For contracts involving AI components, request ISO 42001 certification or a documented roadmap to certification. For EU-facing SaaS, treat ISO 27001 as a practical requirement — not just a nice-to-have.
 
 ### 3.6 Service Level Agreement (SLA)
 
@@ -522,6 +549,19 @@ Indemnification means one party agrees to cover the other's losses in specific s
 | Uncapped for certain breaches | No cap on confidentiality, IP infringement, willful misconduct | Common carve-out for the most serious breaches |
 
 **Super-cap:** Some agreements have a "super-cap" for the carved-out items (e.g., 3x contract value for confidentiality breaches). This prevents truly unlimited exposure while acknowledging that some breaches deserve higher limits.
+
+**Tiered super-cap structures (2026 market standard):**
+
+By 2026, tiered liability caps have become the norm in mid-market and enterprise SaaS deals. The typical structure:
+
+| Tier | Scope | Cap |
+|:---|:---|:---|
+| **Base cap** | General contract liability | 12 months' fees (trailing) |
+| **Elevated cap** | Data breach, security obligations, privacy violations | 2–3x annual fees |
+| **AI-specific cap** | AI-related liability (bias, hallucinations, erroneous outputs) | Increasingly carved out with its own higher cap, often 2–3x annual fees separate from the data breach cap |
+| **Uncapped** | IP indemnification, willful misconduct, confidentiality breaches | No cap — these are considered uninsurable moral hazards |
+
+This tiered approach reflects the reality that data breaches and AI failures carry outsized financial risk relative to general contract disputes. The average cost of a data breach reached **$4.5M in 2025** (IBM Cost of a Data Breach Report), making a 1x annual-fee cap inadequate for most enterprise buyers. When negotiating, align the elevated cap with the realistic exposure — if you process millions of records, the cap should reflect the potential regulatory fines and remediation costs, not just the contract value.
 
 **What to never agree to:**
 - Unlimited liability in any direction
@@ -606,6 +646,96 @@ Indemnification means one party agrees to cover the other's losses in specific s
 | Injunctive relief | Arbitrator can grant; but court may be needed for emergency orders | Court can issue temporary restraining orders |
 
 **Practical advice:** If you're the smaller party, arbitration is usually better — litigation costs can be used as a weapon by larger companies. If injunctive relief might be needed (e.g., IP theft), include a carve-out allowing either party to seek injunctive relief in court regardless of the arbitration clause.
+
+---
+
+## Regulatory Landscape Update (2025-2026)
+
+Several major regulations took effect in 2025-2026 that directly impact B2B SaaS contracts. Any MSA, DPA, or SaaS agreement drafted or renewed in this period must account for these requirements. Failure to address them creates regulatory risk for both vendor and client.
+
+### EU Data Act (Effective September 12, 2025)
+
+The EU Data Act fundamentally changes the contractual dynamics for SaaS providers serving EU customers:
+
+- **Switching rights:** EU customers have the right to terminate SaaS contracts with a **maximum 2-month notice period** — even on fixed-term contracts. Any contractual provision requiring longer notice is unenforceable for EU customers.
+- **Data export obligation:** Upon termination, the vendor must provide a **30-day data export period** in structured, machine-readable formats. This goes beyond the typical "we'll give you a CSV dump" — the data must be in formats that facilitate migration to a competing service.
+- **Switching charges:** Transitional period allows reduced switching charges through January 12, 2027. After that date, **all switching charges must be eliminated entirely**. No early termination fees, no data extraction fees, no migration surcharges for EU customers.
+
+**MSA impact:** Every MSA for EU-facing SaaS needs a Data Act-compliant switching clause. Review existing termination provisions (Section 3.14) and data portability clauses (Section 6.3) against these requirements. Contracts that lock in EU customers with multi-year minimums or penalize early exit are legally vulnerable.
+
+### EU AI Act
+
+The EU AI Act introduces a risk-based regulatory framework for AI systems, with obligations phasing in over 2025-2026:
+
+- **February 2, 2025:** Prohibited AI practices ban takes effect (social scoring, manipulative AI, untargeted facial recognition scraping). The **AI literacy obligation** also took effect — all organizations deploying AI must ensure staff have sufficient AI literacy.
+- **August 2, 2026:** Obligations for **high-risk AI systems** take full effect, requiring:
+  - Risk management systems
+  - Technical documentation
+  - Human oversight mechanisms
+  - Data governance and quality requirements
+  - Conformity assessments before deployment
+- **Penalties:** Up to **EUR 35M or 7% of global annual turnover** (whichever is higher) for prohibited practices violations. Up to EUR 15M or 3% for other violations.
+
+**MSA template requirements:** Contracts involving AI components should include:
+
+| Clause | Purpose |
+|:---|:---|
+| **AI risk classification** | Document the risk level of AI components under the EU AI Act taxonomy (minimal, limited, high-risk, prohibited) |
+| **AI audit rights** | Client's right to audit AI systems for compliance, bias, and accuracy — beyond standard data processing audits |
+| **Transparency obligations** | Requirements for disclosing when content is AI-generated and how AI systems make decisions |
+| **AI-specific indemnification** | Separate indemnification for AI-related harms (bias, discrimination, erroneous outputs) with its own liability treatment |
+
+### DORA (Digital Operational Resilience Act, Effective January 17, 2025)
+
+DORA is mandatory for any SaaS provider serving **EU financial institutions** (banks, insurance companies, investment firms, payment providers). If your client is in EU financial services, your contract must comply.
+
+Required contractual provisions:
+
+| DORA Requirement | Contract Provision |
+|:---|:---|
+| **ICT risk management** | Vendor must demonstrate documented ICT risk management framework and share relevant documentation with the financial entity |
+| **Audit rights** | Financial entity (and its regulators) must have audit and access rights to the vendor's premises, systems, and relevant documentation |
+| **Incident reporting** | Vendor must assist with incident reporting — initial notification to the financial entity within **4 hours** of detecting a major ICT-related incident |
+| **Exit strategies** | Contract must include documented exit strategies with clear transition timelines, data migration provisions, and minimum notice periods |
+| **Sub-outsourcing** | Restrictions on sub-outsourcing critical functions; prior approval requirements for material changes to sub-contractors |
+
+DORA contracts are subject to regulatory scrutiny. Financial supervisory authorities can review and object to outsourcing arrangements that do not meet DORA requirements.
+
+### NIS2 Directive (Compliance Required by October 2026)
+
+The NIS2 Directive expands cybersecurity obligations across the EU and applies to SaaS companies serving **"essential" or "important" EU entities** (energy, transport, health, digital infrastructure, public administration, and more).
+
+**Contract impact:**
+- Contracts must include **cybersecurity clauses** specifying the security measures the vendor implements, incident notification timelines, and cooperation obligations during cyber incidents.
+- **Supply chain security requirements** — the client may be required by NIS2 to assess and document the cybersecurity posture of its suppliers (including SaaS vendors). Expect contractual requirements for security questionnaires, penetration test reports, and certification evidence.
+- Incident reporting obligations under NIS2 are tight: **24-hour early warning** to the national CSIRT, followed by a full incident notification within 72 hours.
+- Penalties for non-compliance reach **EUR 10M or 2% of global turnover** for essential entities.
+
+### US State Privacy Laws (2025-2026 Expansion)
+
+**Twenty US states** now have comprehensive privacy laws in effect. The patchwork continues to grow, and DPAs must account for all applicable jurisdictions:
+
+**Key additions in 2025-2026:**
+
+| State | Effective Date | Notable Provisions |
+|:---|:---|:---|
+| Delaware | January 1, 2025 | Broad definition of "sale" including targeted advertising |
+| Iowa | January 1, 2025 | Narrower scope — applies only to controllers |
+| New Hampshire | January 1, 2025 | Standard consumer rights model |
+| New Jersey | January 15, 2025 | Broad scope, low processing thresholds |
+| Nebraska | January 1, 2025 | Applies to all businesses regardless of size |
+| Tennessee | July 1, 2025 | Affirmative defense for NIST Privacy Framework compliance |
+| Minnesota | July 31, 2025 | Grants consumers the right to **question profiling results** — unique among US state laws |
+| Maryland | October 1, 2025 | Requires **data minimization from the outset** — cannot collect more data than strictly necessary for the disclosed purpose |
+| Indiana | January 1, 2026 | Standard consumer rights model |
+| Kentucky | January 1, 2026 | Standard consumer rights model |
+| Rhode Island | January 1, 2026 | Standard consumer rights model |
+
+**DPA template impact:** The DPA template needs to cover all 20 states with harmonized terminology. Key considerations:
+- Use a unified "US State Privacy Laws" definition rather than listing individual statutes
+- Maryland's data minimization requirement is the strictest — if you comply with Maryland, you likely comply with others
+- Minnesota's profiling questioning right requires a documented process for responding to consumer challenges of automated decisions
+- Map each state's "processor" or "service provider" definition to ensure the DPA's role assignments hold across jurisdictions
 
 ---
 
@@ -802,6 +932,8 @@ This section covers the key terms for a hosted SaaS product. It's structured fro
 > Client subscribes to the [Product Name] service ("Service") at the tier and pricing specified in the applicable Order Form. The subscription term begins on the Effective Date and continues for the period specified in the Order Form ("Subscription Term"). Unless either party provides written notice of non-renewal at least sixty (60) days before the end of the Subscription Term, the subscription automatically renews for successive periods equal to the initial Subscription Term at the then-current list price, provided that renewal pricing shall not increase by more than 7% over the prior term's pricing.
 
 **Buyer watch-out:** Auto-renewal with price increases is standard but can be aggressive. Negotiate a renewal price cap (5–7%) and longer notice periods (90 days) for enterprise deals.
+
+**EU Data Act impact on auto-renewal (2025-2026 Update):** For EU customers, the EU Data Act (effective September 12, 2025) overrides contractual lock-in provisions. EU customers can terminate with a **maximum 2-month notice period** regardless of what the auto-renewal clause states. Fixed-term commitments and multi-year minimums remain enforceable for the commercial terms (pricing, volume commitments) but cannot prevent an EU customer from exercising their switching right. After January 12, 2027, no switching charges may be imposed on EU customers. Vendors serving EU markets should proactively update auto-renewal clauses to comply — having unenforceable terms in your contract undermines credibility during negotiation.
 
 ### 6.2 Acceptable Use Policy
 

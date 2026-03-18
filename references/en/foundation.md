@@ -6,7 +6,7 @@
 
 Most B2B startups die because they build something nobody needs. User research isn't a checkbox — it's the difference between spending 18 months on a dead product and finding the wedge that pulls you into a market. The goal is not to validate your idea. The goal is to discover what people actually need and whether your product is the thing that solves it.
 
-### HeyGen Case: 1800 Interviews to Find PMF
+### HeyGen Case: Validating Demand on Fiverr Before Writing Code
 
 **Step 1: Wizard of Oz MVP**
 Team offered a service on Fiverr: "Create a talking digital human video for you." Validated two hypotheses with minimal cost:
@@ -15,8 +15,11 @@ Team offered a service on Fiverr: "Create a talking digital human video for you.
 
 This is the cheapest possible validation. Before writing code, they sold the outcome manually. Total cost: a Fiverr listing and their own time. The key insight is that they tested willingness to pay, not just interest. Lots of people will say "cool idea" — far fewer will hand over money.
 
-**Step 2: Massive User Interviews**
-Over 1800 interviews helped the team transform from "interesting tool" to "business solution." The sheer volume matters. At 10 interviews you hear anecdotes. At 50 you see patterns. At 200+ you can segment by persona and identify which use cases have the strongest pull.
+**Step 2: Market Sizing via Fiverr**
+The team searched Fiverr and found 1,811 existing listings for spokesperson/talking-head video services — direct validation that paying demand existed for this category. This was a market-sizing data point, not a user interview count. The sheer number of active listings proved that buyers were already spending money on the exact outcome HeyGen would automate.
+
+**Step 3: Iterating on Early Customer Feedback**
+With demand validated, the team launched an MVP and iterated based on feedback from early paying customers, transforming from "interesting tool" to "business solution." At 10 conversations you hear anecdotes. At 50 you see patterns. At 200+ you can segment by persona and identify which use cases have the strongest pull.
 
 ### Frameworks for Measuring PMF
 
@@ -36,6 +39,8 @@ Benchmarks from real companies at the time they found PMF:
 - Slack: ~51% very disappointed
 - Notion: ~45% very disappointed
 - Superhuman: started at 22%, iterated to 58%
+
+*Note: These figures are from the era when each company found PMF and may reflect different market conditions, competitive landscapes, and user expectations. Use them as directional benchmarks, not absolute targets.*
 
 **Superhuman's PMF Engine**
 
@@ -738,12 +743,16 @@ Benchmark: Best-in-class B2B products get users to the aha moment within 5-10 mi
 | Metric | Definition | Good Benchmark (B2B SaaS) |
 |:---|:---|:---|
 | Day 1 retention | % of signups who return the next day | 40-60% |
-| Day 7 retention | % of signups active on day 7 | 25-40% |
+| Day 7 retention | % of signups active on day 7 | 25-40% * |
 | Day 30 retention | % of signups active on day 30 | 15-25% |
 | Week-over-week retention | % of last week's active users who are active this week | 80%+ |
-| Net Revenue Retention (NRR) | Revenue from existing customers including expansion minus churn | 100-130% (best-in-class: 130%+) |
-| Logo churn | % of customers who cancel per month | <3% monthly for SMB, <1% for enterprise |
+| Net Revenue Retention (NRR) | Revenue from existing customers including expansion minus churn | Median 101% (Benchmarkit/Maxio 2025), down from 105% in 2021. Enterprise: ~118%, SMB: ~97%. Best-in-class: >120%. |
+| Logo churn | % of customers who cancel per month | Average B2B SaaS: 3.5% monthly (Recurly 2025, N=1,200+). SMB: 3-5%, Mid-Market: 1.5-3%, Enterprise: <1%. |
 | Activation rate | % of signups who reach the aha moment | 30-50% |
+
+*\* Day 7 retention methodology note: The 25-40% range assumes "percentage of users returning at least once in the first seven days." If measured as daily-active return rate, benchmarks are significantly lower (~7-12% puts you in top quartile per Amplitude's 2025 Product Benchmark Report). Specify your measurement method.*
+
+*Expansion revenue note: Expansion revenue now represents ~40% of total new ARR industry-wide (Benchmarkit 2025), and >50% for companies above $50M ARR. This is a fundamental shift — net-new logos alone can't drive growth targets.*
 
 ### Resurrection Campaigns for Churned Users
 

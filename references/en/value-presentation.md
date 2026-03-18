@@ -74,15 +74,16 @@ This is an internal alignment tool, not marketing copy. It forces your team to a
 
 ### Real B2B SaaS Value Propositions — Analysis
 
-**1. Supabase: "Build in a weekend, scale to millions."**
+**1. Supabase: "Build in a weekend. Scale to billions."**
 - **"Build in a weekend"** — Directly addresses the developer pain of slow prototyping. Implicitly promises simplicity without saying "easy to use" (which developers distrust).
-- **"Scale to millions"** — Neutralizes the anxiety that simple tools can't handle production workloads. This is the JTBD anxiety force being addressed head-on.
-- **Why it works:** One sentence covers both the individual developer evaluating the tool on a Saturday and the engineering manager who needs to justify it to their VP. The weekend-to-millions arc mirrors the customer's own growth journey.
+- **"Scale to billions"** — Neutralizes the anxiety that simple tools can't handle production workloads. This is the JTBD anxiety force being addressed head-on. The shift from "millions" to "billions" in their official tagline reflects Supabase's own growth trajectory (~$70M ARR, $5B valuation, 4M+ developers as of late 2025).
+- **Why it works:** One sentence covers both the individual developer evaluating the tool on a Saturday and the engineering manager who needs to justify it to their VP. The weekend-to-billions arc mirrors the customer's own growth journey.
 - **Positioning statement equivalent:** For developers who need a backend for their applications, Supabase is an open-source Firebase alternative that lets you go from prototype to production with a single platform. Unlike Firebase, Supabase is built on Postgres, so you're never locked into a proprietary database.
 
-**2. Vercel: "The Frontend Cloud."**
+**2. Vercel: "The Frontend Cloud" → "The AI Cloud."**
 - **Category creation** — Instead of competing in "hosting" or "deployment platforms," Vercel invented a category. When you define the category, you define the buying criteria — and the criteria you define will favor your product.
 - **Why it works:** "Cloud" signals enterprise-grade (scalable, reliable, managed). "Frontend" signals specialization (we're not trying to be everything). Three words that tell a CTO exactly what this is and implicitly promise they won't have to manage infrastructure.
+- **The evolution:** Vercel officially pivoted from "The Frontend Cloud" to "The AI Cloud" at Vercel Ship 2025. Their September 2025 Series F press release ($300M at $9.3B valuation) describes Vercel as "the company behind v0, Next.js, and the AI Cloud." The "Frontend Cloud" category creation is historically instructive as a positioning case study — it worked — but the company has since repositioned around AI as its primary growth vector.
 - **The risk of category creation:** It only works if you can actually educate the market on why this category should exist. Vercel had the credibility (creators of Next.js) and the market momentum (frontend complexity was genuinely exploding) to pull it off. Don't invent a category unless you can be its undisputed leader.
 
 **3. Rippling: "Magically simplify your business."**
